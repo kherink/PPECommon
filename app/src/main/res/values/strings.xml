@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">PPE Common</string>
+    <string name="app_name">Trip using PPE common</string>
+
+    <!-- override a string resource -->
+    <string name="button_text">Trip Button Text</string>
 </resources>

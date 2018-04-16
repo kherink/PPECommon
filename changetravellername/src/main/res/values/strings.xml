@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChangeTravellerName</string>
+    <string name="button_text">Traveller Button Text</string>
 </resources>
