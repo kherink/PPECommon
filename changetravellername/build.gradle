@@ -1,11 +1,23 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven'
+
+group = 'com.viator.ppecommon'
+version = '1.0'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file:///Users/kherink/.m2/repository")
+        }
+    }
+}
 
 android {
     compileSdkVersion 27
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
