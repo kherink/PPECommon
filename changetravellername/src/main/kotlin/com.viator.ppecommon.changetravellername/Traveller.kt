@@ -1,9 +1,9 @@
 package com.viator.ppecommon.changetravellername
 
-class Traveller(var name: String) {
+class Traveller(var firstName: String, var lastName: String) {
 
     override fun toString(): String {
-        return "Traveller ${name}"
+        return "Traveller ${firstName} ${lastName}"
     }
 
 }
